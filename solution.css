@@ -1,0 +1,67 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.image-slider{
+    box-sizing: border-box;
+    display: flex;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    position: absolute;
+    bottom: 50px; 
+}
+
+.images img{
+    height: 250px;
+}
+
+.circles{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    top: 250px;
+}
+
+.first{
+    box-sizing: border-box;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid brown;
+}
+
+.second{
+    box-sizing: border-box;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid grey;
+}
+
+.third{
+    box-sizing: border-box;
+    width: 60px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
